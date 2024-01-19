@@ -37,6 +37,6 @@ The pipeline involves creating a list of packages and generating ADB dumps for t
 
 - `GenerateDumps.ps1`: PowerShell script to initiate the data pipeline.
 - `ParseDump.ipynb`: PowerShell script for parsing ADB dumps into the required model input format.
-- `package_names.txt`: Text file containing a list of Android package names.
+- `apks.txt`: Text file containing a list of Android package names.
 - `DDumps/`: Folder containing the generated dumps.
 
