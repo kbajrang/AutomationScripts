@@ -13,23 +13,19 @@ The pipeline involves creating a list of packages and generating ADB dumps for t
 
 ## Setup
 
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/yourusername/adb-data-pipeline.git
-   cd adb-data-pipeline
-   ```
 
-2. **Create a List of Packages:**
+
+1. **Create a List of Packages:**
    - Edit the `apks.txt` file to include the list of Android package names for which you want to generate dumps.
 
-3. **Run the Data Pipeline:**
+2. **Run the Data Pipeline:**
    - Execute the PowerShell script to initiate the data pipeline:
      ```powershell
      PowerShell -NoProfile -ExecutionPolicy Bypass -File 'GenerateDumps.ps1'
      ```
      Ensure that the script path and filenames are correctly set.
 
-4. **Generated Dumps:**
+3. **Generated Dumps:**
    - The dumps for each package will be generated in the 'DDumps' folder. The filenames will correspond to the package names.
 
 ## Notes
